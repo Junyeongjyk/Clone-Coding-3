@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/*visual----------*/
+.visual{width:100%;margin-top:48px;}
+.visual img{width:100%;}
+
+/*contents----------*/
+.contents{width:100%;overflow: hidden;}
+
+/*quick*/
+.contents .quick{height:93px;background:#e74f4b;margin-top:35px;border-bottom:2px solid #cacaca;}
+.contents .quick li{float:left;width:25%;height:93px;text-align: center;}
+.contents .quick li img{margin-top:8px;}
+
+.title{margin:0 0 12px 10px;}
+
+/*news*/
+.news{width:100%;overflow: hidden;margin-top:30px;}
+.news ul{margin:0 10px;}
+.news ul li{height:100px;margin-bottom:5px;border:1px solid #cbcbcb;overflow: hidden;padding-right:7px;box-sizing: border-box;}
+.news ul li:last-child{margin-bottom:0;}
+.news ul li img{width:120px;float:left;margin-right:12px;border-left:2px solid red;}
+.news ul li a{color:#333;}
+.news ul li a:hover{}
+.news ul li p{height:93px;overflow: hidden;}
+.news ul li span{color:#e5332d;font-weight: bold;display: inline-block;margin:5px 0}
+
+
+/*camp*/
+.camp{width:100%;overflow: hidden;margin-top:30px;}
+.camp .camp_video{padding:0 10px;box-sizing: border-box;width:100%;}
+
+
+/*promo*/
+.promo{width:100%;overflow: hidden;margin-top:30px;}
+.promo ul{margin:0 10px;}
+.promo ul li{float:left;width:49%;}
+.promo ul li:first-child{margin-right:2%;}
+.promo ul li img{width:100%;}
+
+
+
